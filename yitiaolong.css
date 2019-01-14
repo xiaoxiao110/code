@@ -1,0 +1,156 @@
+a {
+				line-height: 28px;
+				/*设置行距为28px，让文字在每行的中间位置*/
+				color: black;
+				/*文字颜色是黑色*/
+				margin: 5px 10px;
+				font-size: 16px;
+				/*用12号字*/
+				display: block;
+				/*这个比较关键，因为a本身就是联级元素，本身不具有宽高，用这个把它变成块级元素，这样前面设置的宽和高就能起作用了*/
+				text-align: center;
+				/*让文本居中*/
+				text-decoration: none;
+				/*去掉下划线*/
+				transition: 0.5s;
+			}
+			html,
+			body {
+				margin: 0px;
+				height: 100%;
+				background:#FFFAFA;
+			}
+			
+			.one {
+				margin: 0 auto;
+				width: 80%;
+				height: 100px;
+				text-align: right;
+				line-height: 100px;
+			}
+			
+			.one ul {
+				list-style-type: none; //去除黑点
+			}
+			
+			.one ul li:hover {
+				background-color: aqua;
+			}
+			
+			.one li {
+				cursor: pointer;
+				display: inline-block;
+			}
+            .headpng {
+				float: left;
+				height: 55px;
+				width: 173px;
+				text-align: center;
+				padding-top: 20px;
+			}
+			.tupian{
+				width: 100%;
+				height: 100%;
+			}
+			.caidan {
+				text-align: right;
+			}
+            .two{
+	            height: 250px;
+              	width: 100%;
+            }
+            .fenlei{
+            	width: 90%;
+            	margin: 0 auto;
+            	
+            	border: 1px solid darkgray;
+            }
+            .fenlei ul {
+				list-style-type: none; //去除黑点
+			}
+			
+			.fenlei ul li:hover {
+				background-color: aqua;
+			}
+			
+			.fenlei li {
+				cursor: pointer;
+				display: inline-block;
+			}
+			.shangping1{
+				margin: 10px 5% ;
+				width: 90%;
+				height: 50%;
+			}
+			.shangping2{
+				margin: 50px 5% ;
+				width: 90%;
+				height: 50%;
+			}
+			.shangpingtupian{
+				width: 50%;
+				height: 100%;
+				float: left;
+			}
+			.shangpingshuoming{
+				margin: 0px;
+				width: 50%;
+				height: 100%;
+				float: left;
+			}
+			.title{
+				color: black;
+				font-size: 40px;
+			}
+			.price{
+				color: red;
+				font-size: 30px;
+			}
+			.weizhi{
+				margin: 30px;
+				color: #8B8386;
+				font-size: 30px;
+			}
+			.shuoming{
+				margin: 30px;
+				color: #000000;
+				font-size: 25px;
+			}
+			.chakan{
+				color: darkslateblue;
+				font-size: 25px;
+			}
+			.yema{
+				height: 100%;
+				text-align: right;
+				line-height: 40px;
+			}
+			.tupian{
+				width: 100%;
+				height: 100%;
+			}
+			.shuoming{
+				text-align: center;
+			}
+            .next{
+            	margin: 0 auto;
+            	width: 90%;
+            	text-align: right;
+            	height: 30px;
+            	line-height: 30px;
+            }
+            .six{
+				height: 40px;
+				text-align: center;
+				background: black;
+			}
+			.sex-1{
+				line-height: 40px;
+				text-align: center;
+				width: 100%;
+			}
+			.ziti4{
+				color: #8B8386;
+				font-size: 15px;
+				font-family: "微软雅黑";
+			}
